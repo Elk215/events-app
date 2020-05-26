@@ -1,0 +1,40 @@
+// A Hassle-Free Way to Self-Host Google Fonts - https://google-webfonts-helper.herokuapp.com/fonts
+
+@font-face {
+  font-display: fallback;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/Oswald-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: fallback;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/Oswald-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-display: fallback;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/Oswald-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-display: fallback;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/Oswald-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: fallback;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/Oswald-SemiBold.ttf') format('truetype');
+}
+

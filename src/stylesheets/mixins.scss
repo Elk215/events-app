@@ -1,0 +1,22 @@
+/* Стандартный transition для hover-анимаций */
+
+@mixin transition {
+  transition: .3s cubic-bezier(.25, .1, .25, 1);
+}
+
+/* Миксин замены цвета placeholder у input.
+Нужно добавить в стилях элемента конструкцию вида @include placeholder(#000); */
+@mixin placeholder($color) {
+
+  &::-webkit-input-placeholder {
+    color: $color;
+  }
+
+  &::-moz-placeholder {
+    color: $color;
+  }
+
+  &:-ms-input-placeholder {
+    color: $color;
+  }
+}

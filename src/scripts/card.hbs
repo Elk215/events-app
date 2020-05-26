@@ -1,0 +1,31 @@
+{{#each events}}
+<div class="card-event">
+    <div class="card-event__top">
+        <img src="{{eventImages.smallImage}}" alt="" class="card-event__img">
+        <div class="card-event__top-wrap">
+        <span class="card-event__data">
+            {{#if shortDate}}
+            {{shortDate}}
+            {{else}}
+            rescheduled
+            {{/if}}
+            </span>
+        <span class="card-event__type">{{genre}}</span>
+        <h3 class="card-event__title">{{name}}</h3>
+        </div>
+    </div>
+    <div class="card-event_bottom">
+        <h5 class="card-event__place-name">{{place}}</h5>
+        <div class="card-event_bottom-wrap">
+        <span class="card-event__price">
+            {{#if priceRange}}
+            from {{priceRange.min}} {{priceRange.currency}}
+            {{else}}
+            unknown
+            {{/if}}
+            </span>
+        <a href="{{id}}" class="card-event__link">Details</a>
+        </div>
+    </div>
+</div>
+{{/each}}

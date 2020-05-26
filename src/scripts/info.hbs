@@ -1,0 +1,46 @@
+<div class="event-info__banner info-banner">
+    <span class="info-banner__close">Close</span>
+    <img src="{{eventImages.bigImage}}" alt="" class="info-banner__img">
+    <div class="info-banner__wrap">
+        <h2 class="info-banner__title">{{name}}</h2>
+        <span class="info-banner__genre">{{genre}}</span>
+        <a href="{{url}}" target="blank" class="info-banner__link">Buy tickets</a>
+    </div>
+</div>
+
+<div class="event-info__wrap">
+    <ul class="event-info__list">
+        <li>
+            <span>Country</span>
+            <span>{{country}}</span>
+        </li>
+        <li>
+            <span>Place</span>
+            <span>{{place}}</span>
+        </li>
+        <li>
+            <span>Status</span>
+            <span>{{status}}</span>
+        </li>
+        {{#if fullDate}}
+        <li>
+            <span>Data</span>
+            <span>{{fullDate}}</span>
+        </li>
+        <li>
+            <span>Time</span>
+            <span>{{time}}</span>
+        </li>
+        {{/if}}
+        {{#if priceRange}}
+        <li>
+            <span>Price</span>
+            <span>{{priceRange.min}} {{priceRange.currency}}</span>
+        </li>
+        {{/if}}
+    </ul>    
+</div>
+
+
+
+
