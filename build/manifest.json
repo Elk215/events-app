@@ -1,0 +1,11 @@
+{
+  "fonts/Oswald-Bold.ttf": "fonts/Oswald-Bold.ttf",
+  "fonts/Oswald-Light.ttf": "fonts/Oswald-Light.ttf",
+  "fonts/Oswald-Medium.ttf": "fonts/Oswald-Medium.ttf",
+  "fonts/Oswald-Regular.ttf": "fonts/Oswald-Regular.ttf",
+  "fonts/Oswald-SemiBold.ttf": "fonts/Oswald-SemiBold.ttf",
+  "images/banner.jpg": "images/banner.jpg",
+  "images/spinner.svg": "images/spinner.svg",
+  "main.css": "stylesheets/main.css",
+  "main.js": "scripts/main.js"
+}
