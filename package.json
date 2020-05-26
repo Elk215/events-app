@@ -4,7 +4,7 @@
   "author": "Vlad",
   "license": "MIT",
   "files": ["dist"],
-  "homepage": "https://elk215.github.io/events-app/",
+  "homepage": "https://elk215.github.io/events-app/build",
   "scripts": {
     "prestart": "rimraf build && rimraf ./stats.json",
     "start": "webpack-dev-server --open --mode development",
