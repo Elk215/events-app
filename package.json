@@ -1,13 +1,9 @@
 {
-  "name": "webpack-es6-sass-boilerplate",
-  "version": "0.2.0",
-  "description": "A minimalistic webpack 4 based boilerplate for building web apps",
-  "author": "Vadim Markov",
+  "name": "events app",
+  "version": "1.0.0",
+  "author": "Vlad",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/vadimmarkov/webpack-es6-sass-boilerplate.git"
-  },
+  "files": ["dist"],
   "scripts": {
     "prestart": "rimraf build && rimraf ./stats.json",
     "start": "webpack-dev-server --open --mode development",
